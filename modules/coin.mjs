@@ -39,7 +39,7 @@ function coinFlip() {
 
 function coinFlips(flips) {
   let flipsArray = [];
-  for (i=0; i<flips; i++) {
+  for (let i=0; i<flips; i++) {
     flipsArray.push(coinFlip())
   }
 
@@ -62,7 +62,7 @@ function coinFlips(flips) {
 function countFlips(array) {
   let heads = 0;
   let tails = 0;
-  for (i=0; i<array.length; i++) {
+  for (let i=0; i<array.length; i++) {
     if (array[i] == 'heads') {
       heads++;
     } else {
